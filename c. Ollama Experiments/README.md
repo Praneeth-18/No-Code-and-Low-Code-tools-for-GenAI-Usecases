@@ -5,6 +5,7 @@
 2. [Docker Configuration](#docker-configuration)
 3. [Ollama Models](#ollama-models)
 4. [Multimodal Demonstration](#multimodal-demonstration)
+5. [RestAPI](#restapi-call)
 
 ## OpenWebUI Setup
 
@@ -37,4 +38,9 @@ Here's a demonstration of the Gemma 2B model running on Ollama:
 This section showcases Ollama's ability to process and generate insights from both text and images:
 
 ![Ollama Multimodal Demo](ollama-multimodal-demo.jpeg)
+
+## RestAPI
+
+![RestAPI](RestAPI.jpeg)
+![RestAPI-call-to-model](RestAPI-call-to-model.jpeg)
 
