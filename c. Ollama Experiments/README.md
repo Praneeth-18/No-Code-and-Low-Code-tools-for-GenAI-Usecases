@@ -5,7 +5,7 @@
 2. [Docker Configuration](#docker-configuration)
 3. [Ollama Models](#ollama-models)
 4. [Multimodal Demonstration](#multimodal-demonstration)
-5. [RestAPI](#restapi-call)
+5. [RestAPI](#restapi)
 
 ## OpenWebUI Setup
 
