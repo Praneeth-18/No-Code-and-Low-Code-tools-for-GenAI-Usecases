@@ -1,58 +1,40 @@
-# No-Code-and-Low-Code-tools-for-GenAI-Usecases
 
+## Contents
 
-## Table of Contents
+1. [OpenWebUI Setup](#openwebui-setup)
+2. [Docker Configuration](#docker-configuration)
+3. [Ollama Models](#ollama-models)
+4. [Multimodal Demonstration](#multimodal-demonstration)
 
-1. [LLaMA Factory Experiments](#llama-factory-experiments)
-2. [LM Studio Features](#lm-studio-features)
-3. [Ollama Experiments](#ollama-experiments)
-4. [Dify.ai Workflow Capabilities](#difyai-workflow-capabilities)
+## OpenWebUI Setup
 
-## LLaMA Factory Experiments
+OpenWebUI provides a user-friendly interface for interacting with Ollama models.
 
-### a.1) Supervised Fine-tuning
-- Notebook: `llama_factory_supervised_finetuning.ipynb`
-- Description: Demonstrates supervised fine-tuning using LoRA/QLoRA on a small model (e.g., Gemma 2B).
+![OpenWebUI Interface](OpenWebUI.jpeg)
 
-### a.2) DPO Training
-- Notebook: `llama_factory_dpo_training.ipynb`
-- Description: Showcases Direct Preference Optimization (DPO) training using LLaMA Factory.
+## Docker Configuration
 
-### a.3) PPO Training
-- Notebook: `llama_factory_ppo_training.ipynb`
-- Description: Illustrates Proximal Policy Optimization (PPO) training with LLaMA Factory.
+We use Docker to containerize our Ollama setup, ensuring consistent environments across different systems.
 
-## LM Studio Features
+### Docker OpenWebUI
 
-### b.1) Gemma 2B and PDF Q&A
-- Notebook: `lm_studio_gemma_pdf_qa.ipynb`
-- Description: Demonstrates downloading Gemma 2B, uploading a PDF, and asking questions about its content using LM Studio.
+![Docker OpenWebUI Configuration](docker-openWebUI.jpeg)
 
-## Ollama Experiments
+### Docker Port Configuration
 
-### c.1) Local Ollama with Gemma 2B
-- Notebook: `ollama_local_gemma.ipynb`
-- Description: Shows how to download and run Gemma 2B using Ollama on a local machine.
+![Docker Port Configuration](docker-port.jpeg)
 
-### c.2) Multimodal Ollama Demo
-- Notebook: `ollama_multimodal_demo.ipynb`
-- Description: Showcases various multimodal capabilities using Ollama.
+## Ollama Models
 
-### c.3) Ollama REST API Examples
-- Notebook: `ollama_rest_api_examples.ipynb`
-- Description: Provides examples of using Ollama's REST API for various tasks.
+### Gemma 2B Demo
 
-### c.4) Ollama on Google Colab
-- Notebook: `ollama_google_colab.ipynb`
-- Description: Demonstrates running Ollama on Google Colab's free tier.
+Here's a demonstration of the Gemma 2B model running on Ollama:
 
-### c.5) Open WebUI for Ollama
-- Notebook: `ollama_open_webui_demo.ipynb`
-- Description: Showcases key features of Ollama using the Open WebUI interface.
+![Ollama Gemma 2B Demo](ollama-gemma2b-demo.jpeg)
 
-## Dify.ai Workflow Capabilities
-### d) dify.ai workflow capabilties
+## Multimodal Demonstration
 
-- Notebook: `difyai_workflow_demo.ipynb`
-- Description: Demonstrates Dify.ai's capabilities including RAG engine, agent system, workflow management, observability features, and local deployment.
+This section showcases Ollama's ability to process and generate insights from both text and images:
+
+![Ollama Multimodal Demo](ollama-multimodal-demo.jpeg)
 
