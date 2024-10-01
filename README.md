@@ -1,7 +1,7 @@
 # No-Code-and-Low-Code-tools-for-GenAI-Usecases
 
 
-[TouTube Demo Link](https://youtu.be/W44s2VwEUU4)
+[YouTube Demo Link](https://youtu.be/W44s2VwEUU4)
 
 ## Table of Contents
 
